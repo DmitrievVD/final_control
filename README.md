@@ -53,9 +53,9 @@
 
 14.2 определять животное в правильный класс [Ссылка](src/main/java/ControllerAnimal.java)
 
-14.3 увидеть список команд, которое выполняет животное [Ссылка](src/main/java/ControllerAnimal.java)
+14.3 увидеть список команд, которое выполняет животное [Ссылка](src/main/java/UI.java)
 
-14.4 обучить животное новым командам [Ссылка](src/main/java/ControllerAnimal.java)
+14.4 обучить животное новым командам [Ссылка](src/main/java/UI.java)
 
 14.5 Реализовать навигацию по меню [Ссылка](src/main/java/UI.java)
 
