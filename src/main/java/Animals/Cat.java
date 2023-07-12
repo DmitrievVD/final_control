@@ -34,6 +34,6 @@ public class Cat extends  Pet{
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Кошка " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Кошка " + bithdaye + "\n");
     }
 }

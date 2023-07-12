@@ -34,6 +34,6 @@ public class Humster extends Pet{
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Хомяк " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Хомяк " + bithdaye + "\n");
     }
 }

@@ -12,7 +12,8 @@ public class UI {
                     + "\n1. Завести новое животное"
                     + "\n2. Список команд животного"
                     + "\n3. Обучить новой команде"
-                    + "\n4. Выход");
+                    + "\n4. Список всех животных"
+                    + "\n5. Выход");
             int input = in.nextInt();
             if (input == 1){
                 try (Counter counter = new Counter()){
@@ -48,6 +49,8 @@ public class UI {
                     }
                 }
             } else if (input == 4) {
+                System.out.println(ControllerAnimal.listAnimals());
+            } else if (input == 5) {
                 flag = false;
             } else {
                 System.out.println("Вы ввели неправильное значение!!!");

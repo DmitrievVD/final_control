@@ -34,6 +34,6 @@ public class Horse extends Pack{
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Лошадь " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Лошадь " + bithdaye + "\n");
     }
 }

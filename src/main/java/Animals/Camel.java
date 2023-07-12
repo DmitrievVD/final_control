@@ -34,6 +34,6 @@ public class Camel extends Pack{
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Верблюд " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Верблюд " + bithdaye + "\n");
     }
 }

@@ -34,6 +34,6 @@ public class Donkey extends Pack{
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Осел " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Осел " + bithdaye+ "\n");
     }
 }

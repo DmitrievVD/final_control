@@ -34,6 +34,6 @@ public class Dog extends Pet {
 
     @Override
     public String toString() {
-        return String.format(getAnimalID() + " " + name + " " + type + " Собака " + bithdaye);
+        return String.format(getAnimalID() + " " + name + " " + type + " Собака " + bithdaye + "\n");
     }
 }
